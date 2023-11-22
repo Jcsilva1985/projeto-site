@@ -23,6 +23,7 @@ header {
     text-align: center;
     min-height: 150px;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 header h1 {
@@ -44,14 +45,14 @@ header p {
 
 nav {
     background-color: var(--cor03);
-    padding: 10px;
+    padding: 15px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.274);
     font-weight: bold;
 }
 
 nav a {
     color: var(--cor06);
-    border-radius: 5px;
+    
     padding: 10px;
     text-decoration: none;
 }
@@ -64,10 +65,10 @@ nav a:hover {
 main {
     background-color: var(--cor06);
     min-width: 350px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 40px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -88,6 +89,7 @@ main h2 {
 
 main h3 {
     background-image: linear-gradient(to right, var(--cor01), transparent);
+    margin: 10px;
     padding: 10px;
     margin-inline-start: 20px;
     border-radius: 5px;
@@ -112,21 +114,15 @@ main a {
 main a:hover {
     background-color: var(--cor02);
     color: var(--cor06);
-    padding: 3px;
+   
     border-radius: 5px;
 }
 
 
-section > ul {
-    list-style-position: inside;
-}
 
-section > ol {
-    list-style-position: inside;
-}
 
 main p {
-   margin: 12px;
+   padding: 15px;
    text-align: justify;
    text-indent: 25px;
    line-height: 1.5em;
@@ -134,6 +130,23 @@ main p {
 
 li {
     margin: 10px;
+
+}
+
+.div01 {
+    background-image: url(imagens/panodefundo001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--cor06);
+}
+
+.div02 {
+    background-image: url(imagens/panodefundo002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--cor06);
 }
 
 div.video02 {
