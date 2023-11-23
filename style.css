@@ -23,7 +23,7 @@ header {
     background-color: var(--cor02);
     text-align: center;
     min-height: 150px;
-    min-width: 340px;
+    min-width: 350px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -46,7 +46,7 @@ header p {
 }
 
 nav {
-    min-width: 340px;
+    min-width: 350px;
     background-color: var(--cor03);
     padding: 15px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.274);
@@ -66,7 +66,7 @@ nav a:hover {
 
 main {
     background-color: var(--cor06);
-    min-width: 340px;
+    min-width: 350px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 20px;   
@@ -211,7 +211,7 @@ div.video01 > iframe {
 }
 
 footer {
-    min-width: 330px;
+    min-width: 350px;
     color: var(--cor06);
     text-align: center;
     background-color: var(--cor05);
