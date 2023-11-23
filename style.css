@@ -23,6 +23,7 @@ header {
     background-color: var(--cor02);
     text-align: center;
     min-height: 150px;
+    min-width: 350px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
