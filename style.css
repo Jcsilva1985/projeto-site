@@ -15,6 +15,7 @@
 }
 
 body{
+   
     background-color: var(--cor01);
 }
 
@@ -67,8 +68,7 @@ main {
     min-width: 350px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 20px;
-    padding-top: 40px;
+    margin-bottom: 20px;   
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -79,6 +79,8 @@ main h2 {
     padding: 10px;
     color: var(--cor05);
     background-image: linear-gradient(to right, var(--cor01), transparent);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     margin-inline-start: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
@@ -133,12 +135,26 @@ li {
 
 }
 
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.normal {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 .div01 {
+    background-color: rgb(187, 184, 184);
     background-image: url(imagens/panodefundo001.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.527);
     color: var(--cor06);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .div02 {
@@ -146,7 +162,18 @@ li {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.527);
     color: var(--cor06);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.div01 > h2{
+    color: var(--cor06) ;    
+}
+
+.div02 > h2{
+    color: var(--cor06) ;    
 }
 
 div.video02 {
