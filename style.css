@@ -23,7 +23,7 @@ header {
     background-color: var(--cor02);
     text-align: center;
     min-height: 150px;
-    min-width: 350px;
+    min-width: 330px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -46,6 +46,7 @@ header p {
 }
 
 nav {
+    min-width: 330px;
     background-color: var(--cor03);
     padding: 15px;
     box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.274);
@@ -211,6 +212,7 @@ div.video01 > iframe {
 }
 
 footer {
+    min-width: 330px;
     color: var(--cor06);
     text-align: center;
     background-color: var(--cor05);
